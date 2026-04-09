@@ -32,6 +32,7 @@
             font-size: 2.5rem;
             background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 10px;
         }
@@ -51,7 +52,7 @@
             top: 0;
             bottom: 0;
             left: 50%;
-            margin-left: -1px;
+            margin-left: 20px;
         }
 
         .container {
@@ -66,7 +67,7 @@
             position: absolute;
             width: 16px;
             height: 16px;
-            right: -8px;
+            right: -32px;
             background-color: var(--bg-color);
             border: 3px solid var(--primary-color);
             top: 24px;
@@ -76,7 +77,7 @@
 
         .left { left: 0; text-align: right; }
         .right { left: 50%; text-align: left; }
-        .right::after { left: -8px; }
+        .right::after { left: 10px; }
 
         /* Style des cartes */
         .content {
@@ -269,7 +270,7 @@
         </div>
 
         <div class="container right">
-            <a href="iPhone_4S.html" class="content">
+            <a href="Iphone_4s.html" class="content">
                 <span class="date">2011</span>
                 <h2>iPhone 4S</h2>
                 <div class="fact">📱 L'arrivée de Siri et du design verre/acier.</div>
